@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1705661 */
+  src: url('//at.alicdn.com/t/font_1705661_7rfuh1lkr9v.eot');
+  src: url('//at.alicdn.com/t/font_1705661_7rfuh1lkr9v.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1705661_7rfuh1lkr9v.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1705661_7rfuh1lkr9v.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1705661_7rfuh1lkr9v.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1705661_7rfuh1lkr9v.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 30px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon--zhongshichahu:before {
+  content: "\e626";
+}
+
+.icon-shipin:before {
+  content: "\e604";
+}
+
+.icon-jiaju_huabanfuben:before {
+  content: "\e76a";
+}
+
+.icon-huaping:before {
+  content: "\e60c";
+}
+
+.icon-wan1:before {
+  content: "\e625";
+}
+
+.icon-baijian:before {
+  content: "\e674";
+}
+
+.icon-huaping2:before {
+  content: "\e71f";
+}
+
+.icon-beizi:before {
+  content: "\e61a";
+}
+

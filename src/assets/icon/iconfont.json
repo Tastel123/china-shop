@@ -1,0 +1,65 @@
+{
+  "id": "1705661",
+  "name": "sho'p",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11338722",
+      "name": "2-中式茶壶",
+      "font_class": "-zhongshichahu",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "2312976",
+      "name": "饰品",
+      "font_class": "shipin",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "5172187",
+      "name": "Tiffany壁画",
+      "font_class": "jiaju_huabanfuben",
+      "unicode": "e76a",
+      "unicode_decimal": 59242
+    },
+    {
+      "icon_id": "5187403",
+      "name": "花瓶",
+      "font_class": "huaping",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "5213071",
+      "name": "碗",
+      "font_class": "wan1",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "9684884",
+      "name": "摆件",
+      "font_class": "baijian",
+      "unicode": "e674",
+      "unicode_decimal": 58996
+    },
+    {
+      "icon_id": "9716269",
+      "name": "花瓶",
+      "font_class": "huaping2",
+      "unicode": "e71f",
+      "unicode_decimal": 59167
+    },
+    {
+      "icon_id": "10333497",
+      "name": "杯子",
+      "font_class": "beizi",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    }
+  ]
+}
