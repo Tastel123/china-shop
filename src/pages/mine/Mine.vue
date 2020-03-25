@@ -33,7 +33,7 @@
       <div class="mine-cell">
         <van-cell-group>
           <van-cell title="我的收藏" icon="goods-collect-o" is-link />
-          <van-cell title="收货地址" icon="aim" is-link />
+          <van-cell title="收货地址" icon="aim" is-link to="address"/>
           <van-cell title="我的优惠券" icon="discount" is-link />
           <van-cell title="客服中心" icon="service-o" is-link />
         </van-cell-group>

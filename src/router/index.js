@@ -45,6 +45,20 @@ export default new Router({
       meta: {
         keepAlive: false // 是否缓存组件
       }
+    },
+    {
+      path: "/address",
+      component: () => import("../pages/mine/address.vue"),
+      meta: {
+        keepAlive: false // 是否缓存组件
+      }
+    },
+    {
+      path: "/addressEdit",
+      component: () => import("../pages/mine/addressEdit.vue"),
+      meta: {
+        keepAlive: false // 是否缓存组件
+      }
     }
   
   ]
