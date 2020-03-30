@@ -13,7 +13,7 @@
         <div class="orderTitle">
           <span>我的订单</span>
         </div>
-        <div class="orderImg">
+        <div class="orderImg" @click="toOrders">
           <div class="iconfont">&#xe60b;</div>
           <span>未付款</span>
         </div>
@@ -51,7 +51,12 @@ export default {
   },
   components: {
     Tabbar
-  }
+  },
+  methods: {
+    toOrders(){
+      this.$router.push("./noOrder")
+    }
+  },
 };
 </script>
 

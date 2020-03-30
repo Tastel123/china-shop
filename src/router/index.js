@@ -19,8 +19,8 @@ export default new Router({
       }
     },
     {
-      path: "/find",
-      component: () => import("../pages/find/Find.vue"),              
+      path: "/category",
+      component: () => import("../pages/category/Category.vue"),
       meta: {
         keepAlive: true // 是否缓存组件
       }
@@ -51,7 +51,7 @@ export default new Router({
       component: () => import("../pages/mine/address.vue"),
       meta: {
         keepAlive: false // 是否缓存组件
-      }
+      },
     },
     {
       path: "/addressEdit",
@@ -59,7 +59,14 @@ export default new Router({
       meta: {
         keepAlive: false // 是否缓存组件
       }
-    }
-  
+    },
+    {
+      path: "/noOrder",
+      component: () => import("../pages/mine/noOrder.vue"),
+      meta: {
+        keepAlive: false // 是否缓存组件
+      }
+    },
+
   ]
 })

@@ -37,7 +37,7 @@ export default {
   },
   methods: {
     onClickLeft() {
-      this.$router.push("./Mine");
+      this.$router.push("./mine");
     },
     onAdd() {
       this.$router.push("./addressEdit");
